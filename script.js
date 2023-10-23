@@ -21,4 +21,10 @@ function myFunction(e) {
         })
     }
 }
+
+function myOutFunction(e) {
+    gsap.to(rect,{
+        background: `rgb(255,255,255)`
+    })
+}
     
